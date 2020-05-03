@@ -86,9 +86,9 @@ class Annoy:
 
 
 if __name__ == '__main__':
-    a = Annoy("real_saptashwa", "Commonaccount")
+    a = Annoy("", "")
     a.login()
-    a.enter_inbox("__.dannika")
+    a.enter_inbox("")
     a.send_script("Shrek script.txt")  # I have put shrek and aladdin movie script. SO if you wanna change that then
     # just download the new script and change the name present in ("Shrek script.txt") to the name of the script you
     # downloaded"
