@@ -86,9 +86,9 @@ class Annoy:
 
 
 if __name__ == '__main__':
-    a = Annoy("", "")
+    a = Annoy("username", "password")
     a.login()
-    a.enter_inbox("")
+    a.enter_inbox("target_username")  # Enter the username of the person to whom you want to send the script to.
     a.send_script("Shrek script.txt")  # I have put shrek and aladdin movie script. SO if you wanna change that then
     # just download the new script and change the name present in ("Shrek script.txt") to the name of the script you
     # downloaded"
